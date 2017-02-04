@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{41C1AAB6-027E-4694-9732-7419AE47F178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{515DBF5A-F2B6-4F6A-BD6B-FA77B56EEBF2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "APISignalR", "src\APISignalR\APISignalR.xproj", "{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7B3BD162-CCFA-4460-8DBC-ADEA45505D7C} = {41C1AAB6-027E-4694-9732-7419AE47F178}
+	EndGlobalSection
+EndGlobal
