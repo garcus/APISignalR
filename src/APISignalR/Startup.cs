@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using APISignalR.MessageServer;
 
 namespace APISignalR
 {
@@ -38,6 +39,10 @@ namespace APISignalR
             loggerFactory.AddDebug();
 
             app.UseMvc();
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
+
+            app.Map("/ws", SocketHandler.Map);
         }
     }
 }
